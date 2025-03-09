@@ -37,7 +37,7 @@
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/yourusername/weather-app.git
+git clone https://github.com/Tharunbaikani/weather-app.git
 cd weather-app
 ```
 
@@ -102,8 +102,12 @@ npm start     # or yarn start
 
 
 ## 🚀 Screenshots
+![Screenshot 2025-03-10 035811](https://github.com/user-attachments/assets/fef98531-2bab-482e-9dcf-c49529260420)
+![Screenshot 2025-03-10 035822](https://github.com/user-attachments/assets/f08490bd-7c9f-4bfb-afe4-186b4ef90211)
 
-*(Add images or GIFs here to showcase your UI!)*
+
+
+
 
 <br/>
 
@@ -115,21 +119,7 @@ npm start     # or yarn start
 4. **Push** to your fork (`git push origin feature/awesome-feature`)  
 5. **Open** a Pull Request
 
-
-
-## 📜 License
-
-*(Optional: specify a license, e.g. MIT)*
-
-```
-MIT License
-Copyright ...
-Permission is hereby granted...
-```
-
-
-
 ---
 
-**Enjoy your Weather App!** If you have any questions, feel free to [open an issue](https://github.com/yourusername/weather-app/issues) or contact us.  
+**Enjoy  Weather App!** 
 Made with ❤️ by **Tharun Baikani** and **PM Accelerator**.
