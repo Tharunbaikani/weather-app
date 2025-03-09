@@ -3,6 +3,9 @@
 
 # Weather App ☁️☀️
 
+![Screenshot 2025-03-10 035822](https://github.com/user-attachments/assets/02f1243b-2b50-46c2-9efe-88acabcbf941)
+
+
 > A simple weather application using **React** (frontend) + **FastAPI** (backend) + **MongoDB**.  
 > Quickly fetch **current weather**, a **5-day forecast**, watch **YouTube** videos for your location, and **save** your favorite weather records.
 
