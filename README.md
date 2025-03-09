@@ -3,7 +3,8 @@
 
 # Weather App ☁️☀️
 
-![Screenshot 2025-03-10 035822](https://github.com/user-attachments/assets/02f1243b-2b50-46c2-9efe-88acabcbf941)
+![Screenshot 2025-03-10 035742](https://github.com/user-attachments/assets/477d603a-b30f-4aeb-896f-809ed1b089c0)
+
 
 
 > A simple weather application using **React** (frontend) + **FastAPI** (backend) + **MongoDB**.  
