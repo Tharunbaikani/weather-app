@@ -1,4 +1,3 @@
-Below is a **visually enhanced** `README.md` example with **emojis**, **symbols**, and **formatting** to make it more **attractive** and **readable**. Feel free to adapt or copy-paste into your own `README.md` at the project root!
 
 ---
 
@@ -7,7 +6,7 @@ Below is a **visually enhanced** `README.md` example with **emojis**, **symbols*
 > A simple weather application using **React** (frontend) + **FastAPI** (backend) + **MongoDB**.  
 > Quickly fetch **current weather**, a **5-day forecast**, watch **YouTube** videos for your location, and **save** your favorite weather records.
 
-<br/>
+
 
 ## ✨ Features
 
@@ -18,7 +17,6 @@ Below is a **visually enhanced** `README.md` example with **emojis**, **symbols*
 - [x] **Export** (JSON, CSV, PDF) – Export your saved records.  
 - [x] **Geolocation** – Fetch weather based on your current position.
 
-<br/>
 
 ## ⚙️ Tech Stack
 
@@ -29,7 +27,7 @@ Below is a **visually enhanced** `README.md` example with **emojis**, **symbols*
 | **Database** | MongoDB              |
 | **APIs**     | OpenWeather, YouTube |
 
-<br/>
+
 
 ## 🏁 Getting Started
 
@@ -72,7 +70,7 @@ npm start     # or yarn start
 ```
 > The React app is now at **http://localhost:3000**.
 
-<br/>
+
 
 ## 🌀 Usage
 
@@ -83,7 +81,7 @@ npm start     # or yarn start
 5. **Save** your favorite weather info (click "Save Weather").  
 6. Go to **Records** page to **Edit**, **Delete**, or **Export** records.
 
-<br/>
+
 
 ## 🔥 API Endpoints (FastAPI)
 
@@ -97,7 +95,7 @@ npm start     # or yarn start
 | **DELETE** `/api/weather/delete/{record_id}`| Delete a record                        |
 | **GET** `/api/export/{format}`  | Export records as `json`, `csv`, or `pdf`       |
 
-<br/>
+
 
 ## 🚀 Screenshots
 
@@ -113,7 +111,7 @@ npm start     # or yarn start
 4. **Push** to your fork (`git push origin feature/awesome-feature`)  
 5. **Open** a Pull Request
 
-<br/>
+
 
 ## 📜 License
 
@@ -125,7 +123,7 @@ Copyright ...
 Permission is hereby granted...
 ```
 
-<br/>
+
 
 ---
 
