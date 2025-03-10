@@ -1,10 +1,12 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.staticfiles import StaticFiles
 from app.weather_routes import router as weather_router
 import uvicorn
 
 
 app = FastAPI(title="Weather App API")
+app.mount("/", StaticFiles(directory="frontend/build", html=True), name="frontend")
 
 app.add_middleware(
     CORSMiddleware,
