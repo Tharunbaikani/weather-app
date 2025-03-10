@@ -73,7 +73,7 @@ const Records = () => {
       >
         Tharun Baikani
         <span
-          title="Product Manager Accelerator is a global community dedicated to empowering product managers through training, networking, and career development. Visit our LinkedIn page for more details."
+          title="PM Accelerator is a US based company with a global reach premiering in AI learning and as a development hub, featuring award-winning AI products and mentors from top-tier companies such as Google, Meta, Apple, and Nvidia. We offer a dynamic AI PM Bootcamp, designed to empower the next generation of AI professionals through hands-on experience, mentorship, and real-world projects."
           style={{
             display: "inline-block",
             marginLeft: "8px",
