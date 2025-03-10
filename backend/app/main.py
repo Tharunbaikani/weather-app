@@ -19,8 +19,8 @@ app.add_middleware(
 app.include_router(weather_router)
 
 
-# @app.get("/")
-def home():
+@app.get("/ping")
+def ping():
     return {"message": "Welcome to the FastAPI Weather App"}
 
 app.mount("/", StaticFiles(directory="frontend_build", html=True), name="frontend")
