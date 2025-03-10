@@ -1,4 +1,4 @@
-// src/pages/Records.js
+
 import React from "react";
 import WeatherRecords from "../components/WeatherRecords";
 import { Link } from "react-router-dom";
