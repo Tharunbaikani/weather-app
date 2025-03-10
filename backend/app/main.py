@@ -18,12 +18,13 @@ app.add_middleware(
 
 app.include_router(weather_router)
 
+app.mount("/", StaticFiles(directory="frontend_build", html=True), name="frontend")
 
-@app.get("/ping")
-def ping():
+
+@app.get("/")
+def home():
     return {"message": "Welcome to the FastAPI Weather App"}
 
-app.mount("/", StaticFiles(directory="frontend_build", html=True), name="frontend")
 
 
 
