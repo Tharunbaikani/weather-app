@@ -19,7 +19,7 @@ app.add_middleware(
 app.include_router(weather_router)
 
 
-@app.get("/")
+# @app.get("/")
 def home():
     return {"message": "Welcome to the FastAPI Weather App"}
 
