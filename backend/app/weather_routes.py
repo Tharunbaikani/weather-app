@@ -20,7 +20,7 @@ OPENWEATHER_API_KEY = os.getenv("OPENWEATHER_API_KEY")
 YOUTUBE_API_KEY = os.getenv("YOUTUBE_API_KEY")
 GOOGLE_MAPS_API_KEY = os.getenv("GOOGLE_MAPS_API_KEY")
 
-# 🔹 Convert location to lat/lon (City, Zip, GPS, Landmarks)
+#  Convert location to lat/lon (City, Zip, GPS, Landmarks)
 def get_location_data(location: str):
     if "," in location:  # If GPS Coordinates
         lat, lon = location.split(",")
@@ -51,7 +51,7 @@ def get_youtube_videos(location: str):
         for video in response.get("items", []) if video.get("id", {}).get("videoId")
     ]
 
-# ✅ Fetch Wikipedia Summary
+#  Fetch Wikipedia Summary
 def get_wikipedia_summary(location: str):
     wiki_url = f"https://en.wikipedia.org/api/rest_v1/page/summary/{location.replace(' ', '_')}"
     response = requests.get(wiki_url).json()
@@ -64,7 +64,7 @@ def get_wikipedia_summary(location: str):
         "wikipedia_url": response["content_urls"]["desktop"]["page"]
     }
 
-# ✅ Get current weather
+#  Get current weather
 @router.get("/weather")
 def get_weather(location: str):
     location_data = get_location_data(location)
@@ -89,7 +89,7 @@ def get_weather(location: str):
         "wind_speed": response["wind"]["speed"],
          }
 
-    # 🔹 Fetch top 5 YouTube videos for this location
+    #  Fetch top 5 YouTube videos for this location
     videos = get_youtube_videos(location)
 
     # Return everything as one JSON
@@ -111,7 +111,7 @@ def get_weather(location: str):
     #     # "wikipedia": get_wikipedia_summary(location)
     # }
 
-# ✅ Get 5-day weather forecast
+#  Get 5-day weather forecast
 @router.get("/forecast")
 def get_forecast(location: str):
     location_data = get_location_data(location)
@@ -179,7 +179,7 @@ def save_weather(data: WeatherRequest):
         "record_id": new_record["record_id"]
     }
 
-# ✅ Read Weather Records (CRUD - READ)
+#  Read Weather Records (CRUD - READ)
 @router.get("/weather-records")
 def get_weather_records():
     records = list(weather_collection.find({}, {"_id": 0}))
@@ -234,7 +234,7 @@ def delete_weather(record_id: str):
         raise HTTPException(status_code=404, detail="Record not found")
     return {"message": "Weather record deleted"}
 
-# ✅ Export Weather Data (CSV, JSON, PDF)
+#  Export Weather Data (CSV, JSON, PDF)
 
 
 

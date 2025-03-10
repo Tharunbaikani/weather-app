@@ -4,7 +4,7 @@ import axios from "axios";
 
 const API_URL = process.env.REACT_APP_API_URL || "http://localhost:8000/api";
 
-// ✅ Fetch current weather (Supports city, zip code, GPS, landmarks)
+//  Fetch current weather 
 export const fetchWeather = async (location) => {
   try {
     const response = await axios.get(`${API_URL}/weather`, { params: { location } });
@@ -15,7 +15,7 @@ export const fetchWeather = async (location) => {
   }
 };
 
-// ✅ Fetch 5-day forecast
+//  Fetch 5-day forecast
 export const fetchForecast = async (location) => {
   try {
     const response = await axios.get(`${API_URL}/forecast`, { params: { location } });
@@ -26,7 +26,7 @@ export const fetchForecast = async (location) => {
   }
 };
 
-// ✅ Fetch weather based on user's geolocation (latitude & longitude)
+//  Fetch weather based on user's geolocation (latitude & longitude)
 export const fetchGeolocationWeather = async (lat, lon) => {
   try {
     const response = await axios.get(`${API_URL}/weather`, { params: { location: `${lat},${lon}` } });
@@ -37,9 +37,9 @@ export const fetchGeolocationWeather = async (lat, lon) => {
   }
 };
 
-// ✅ CRUD Functions (Database Operations)
+//  CRUD Functions (Database Operations)
 
-// Save weather data to database (with desired_temperature)
+
 export const saveWeatherRecord = async (location) => {
   const response = await axios.post(`${API_URL}/weather/save`, {
     location

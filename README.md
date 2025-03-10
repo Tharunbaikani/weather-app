@@ -1,13 +1,16 @@
-Below is a **visually enhanced** `README.md` example with **emojis**, **symbols**, and **formatting** to make it more **attractive** and **readable**. Feel free to adapt or copy-paste into your own `README.md` at the project root!
 
 ---
 
 # Weather App ☁️☀️
 
-> A simple weather application using **React** (frontend) + **FastAPI** (backend) + **MongoDB**.  
-> Quickly fetch **current weather**, a **5-day forecast**, watch **YouTube** videos for your location, and **save** your favorite weather records.
+![Screenshot 2025-03-10 035742](https://github.com/user-attachments/assets/477d603a-b30f-4aeb-896f-809ed1b089c0)
 
-<br/>
+
+
+ A simple weather application using **React** (frontend) + **FastAPI** (backend) + **MongoDB**.  
+ Quickly fetch **current weather**, a **5-day forecast**, watch **YouTube** videos for your location, and **save** your favorite weather records.
+
+
 
 ## ✨ Features
 
@@ -18,7 +21,6 @@ Below is a **visually enhanced** `README.md` example with **emojis**, **symbols*
 - [x] **Export** (JSON, CSV, PDF) – Export your saved records.  
 - [x] **Geolocation** – Fetch weather based on your current position.
 
-<br/>
 
 ## ⚙️ Tech Stack
 
@@ -29,13 +31,13 @@ Below is a **visually enhanced** `README.md` example with **emojis**, **symbols*
 | **Database** | MongoDB              |
 | **APIs**     | OpenWeather, YouTube |
 
-<br/>
+
 
 ## 🏁 Getting Started
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/yourusername/weather-app.git
+git clone https://github.com/Tharunbaikani/weather-app.git
 cd weather-app
 ```
 
@@ -62,7 +64,7 @@ pip install -r requirements.txt
 # Run the server
 uvicorn app.main:app --reload --port 8000
 ```
-> The FastAPI API is now at **http://localhost:8000**.
+ The FastAPI API is now at **http://localhost:8000**.
 
 ### 4. Install & Run Frontend
 ```bash
@@ -70,9 +72,9 @@ cd frontend
 npm install   # or yarn
 npm start     # or yarn start
 ```
-> The React app is now at **http://localhost:3000**.
+ The React app is now at **http://localhost:3000**.
 
-<br/>
+
 
 ## 🌀 Usage
 
@@ -83,7 +85,7 @@ npm start     # or yarn start
 5. **Save** your favorite weather info (click "Save Weather").  
 6. Go to **Records** page to **Edit**, **Delete**, or **Export** records.
 
-<br/>
+
 
 ## 🔥 API Endpoints (FastAPI)
 
@@ -97,13 +99,17 @@ npm start     # or yarn start
 | **DELETE** `/api/weather/delete/{record_id}`| Delete a record                        |
 | **GET** `/api/export/{format}`  | Export records as `json`, `csv`, or `pdf`       |
 
-<br/>
+
 
 ## 🚀 Screenshots
+![Screenshot 2025-03-10 035811](https://github.com/user-attachments/assets/fef98531-2bab-482e-9dcf-c49529260420)
+![Screenshot 2025-03-10 035822](https://github.com/user-attachments/assets/f08490bd-7c9f-4bfb-afe4-186b4ef90211)
 
-*(Add images or GIFs here to showcase your UI!)*
 
-<br/>
+
+
+
+
 
 ## 💡 Contributing
 
@@ -113,21 +119,7 @@ npm start     # or yarn start
 4. **Push** to your fork (`git push origin feature/awesome-feature`)  
 5. **Open** a Pull Request
 
-<br/>
-
-## 📜 License
-
-*(Optional: specify a license, e.g. MIT)*
-
-```
-MIT License
-Copyright ...
-Permission is hereby granted...
-```
-
-<br/>
-
 ---
 
-**Enjoy your Weather App!** If you have any questions, feel free to [open an issue](https://github.com/yourusername/weather-app/issues) or contact us.  
-Made with ❤️ by **Tharun Baikani** and **PM Accelerator**.
+**Enjoy  Weather App!** 
+Made  by **Tharun Baikani** .
