@@ -7,8 +7,8 @@
 
 
 
-> A simple weather application using **React** (frontend) + **FastAPI** (backend) + **MongoDB**.  
-> Quickly fetch **current weather**, a **5-day forecast**, watch **YouTube** videos for your location, and **save** your favorite weather records.
+ A simple weather application using **React** (frontend) + **FastAPI** (backend) + **MongoDB**.  
+ Quickly fetch **current weather**, a **5-day forecast**, watch **YouTube** videos for your location, and **save** your favorite weather records.
 
 
 
