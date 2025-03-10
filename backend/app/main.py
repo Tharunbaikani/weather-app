@@ -6,7 +6,7 @@ import uvicorn
 
 
 app = FastAPI(title="Weather App API")
-app.mount("/", StaticFiles(directory="frontend_build", html=True), name="frontend")
+
 
 app.add_middleware(
     CORSMiddleware,
@@ -17,6 +17,7 @@ app.add_middleware(
 )
 
 app.include_router(weather_router)
+app.mount("/", StaticFiles(directory="frontend_build", html=True), name="frontend")
 
 @app.get("/")
 def home():
