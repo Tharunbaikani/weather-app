@@ -6,7 +6,7 @@ import uvicorn
 
 
 app = FastAPI(title="Weather App API")
-app.mount("/", StaticFiles(directory="frontend/build", html=True), name="frontend")
+app.mount("/", StaticFiles(directory="frontend_build", html=True), name="frontend")
 
 app.add_middleware(
     CORSMiddleware,
