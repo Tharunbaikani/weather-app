@@ -64,7 +64,7 @@ pip install -r requirements.txt
 # Run the server
 uvicorn app.main:app --reload --port 8000
 ```
-> The FastAPI API is now at **http://localhost:8000**.
+ The FastAPI API is now at **http://localhost:8000**.
 
 ### 4. Install & Run Frontend
 ```bash
@@ -72,7 +72,7 @@ cd frontend
 npm install   # or yarn
 npm start     # or yarn start
 ```
-> The React app is now at **http://localhost:3000**.
+ The React app is now at **http://localhost:3000**.
 
 
 
@@ -109,7 +109,7 @@ npm start     # or yarn start
 
 
 
-<br/>
+
 
 ## 💡 Contributing
 
@@ -122,4 +122,4 @@ npm start     # or yarn start
 ---
 
 **Enjoy  Weather App!** 
-Made with ❤️ by **Tharun Baikani** and **PM Accelerator**.
+Made  by **Tharun Baikani** .
